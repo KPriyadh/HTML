@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form display</title>
+    </head>
+    <body>
+        
+        <h1 style="text-align: center;">Login Form</h1>
+        <br>
+       
+        <form method="post";>
+            <label for="name">Name </label><input type="text" id="name" name="FirstName" placeholder="FirstName" size="15" maxlength="15">
+            <input type="text" id="name" name="SecondName" placeholder="LastName" size="15" maxlength="15"><br><br>
+            <label for="email">Email </label><input type="email" id="email" name="email" placeholder="Email" ><br><br>
+            <label for="PhoneNumber">Phone Number </label><input type="text" id="PhoneNumber" name="FirstName" placeholder="10-digit number" size="10" maxlength="10"><br><br>
+            <label for="password">Password </label><input type="password" id="password" name="password" placeholder="password" size="8" maxlength="=8"><br><br>
+            <label>Gender </label><br>
+            <input type="radio" id="male" name="male"><label for="male"> Male </label><br>
+            <input type="radio" id="female" name="female"><label for="female"> Female </label><br>
+            <input type="radio" id="notwishtodisclose" name="notwishtodisclose"><label for="notwishtodisclose"> Not wish to Disclose </label><br><br>
+            <label for="address">Address</label><br>
+            <textarea rows="10" cols="30"></textarea><br><br>
+            <label for="dob">Date of Birth </label><br><input type="date" id="dob" name="dob"><br><br>
+            <label for="time">Time </label><br><input type="time" id="time" name="time"><br><br>
+            <label>Languages </label><br>
+            <input type="checkbox" id="tamil" name="tamil"><label for="tamil">Tamil</label><br>
+            <input type="checkbox" id="english" name="english"><label for="english">English</label><br>
+            <input type="checkbox" id="french" name="french"><label for="french">French</label><br>
+            <label>Select Your field of intrest:</label><br>
+            <select name="interest" value="Music">
+                <option value="music">Music</option>
+                <option value="cycling">Cycling</option>
+                <option value="badminton">Badminton</option>
+            </select><br><br>
+            <label>Upload your Photo</label><br>
+            <input type="file"  name="photo"><br><br>
+            <input type="submit"  name="submit" value="submit">
+            <input type="reset"  name="reset" value="reset">
+
+        </form>
+
+    </body>
+</html>
